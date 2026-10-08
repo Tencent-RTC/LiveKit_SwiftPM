@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "TUILiveKit", targets: ["TUILiveKit"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Hanpto/AtomicX_SwiftPM.git", from: "4.2.2"),
+        .package(url: "https://github.com/Tencent-RTC/AtomicX_SwiftPM.git", from: "4.2.2"),
         .package(url: "https://github.com/Tencent-RTC/AtomicXCore_SwiftPM.git", from: "4.3.0"),
         .package(url: "https://github.com/Tencent-RTC/RTCRoomEngine_SwiftPM.git", from: "4.3.0"),
         .package(url: "https://github.com/Tencent-RTC/TUICore_SwiftPM.git", from: "9.0.7652"),
